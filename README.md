@@ -38,5 +38,8 @@ Simple and easy to use - here an example of finding the 10 most recent bookmarks
     //Find the 10 most recent bookmarks
     final List<Bookmark> bookmarks = deliciousFeeds.findBookmarks();
 
-##Wiki, Issue-Tracker and further documentation
-I am working on more documentation and the like but the sample above should be enough to get you started.
+##Javadoc
+Here is the Javadoc of the project: [http://p-meier.github.com/deliciousfeeds4J/](http://p-meier.github.com/deliciousfeeds4J/)
+
+##Wiki
+More documentation and exact usage can be found on the Github-Wiki.
