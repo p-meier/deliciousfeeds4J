@@ -98,6 +98,7 @@ If you find deliciousfeeds4J useful or have issues please drop me a line, I woul
 deliciousfeeds4J is licensed under the Apache 2.0 license, see the LICENSE file for more details.
 
 ##Delicious-Feeds API and Javadoc
-You can find the official documentation from Delicious here: [[https://delicious.com/developers]]
+You can find the official documentation from Delicious here: [https://delicious.com/developers](https://delicious.com/developers)
 
-The Javadoc can be found here: [[http://p-meier.github.com/deliciousfeeds4J/]]
+The Javadoc can be found here: [http://p-meier.github.com/deliciousfeeds4J/](http://p-meier.github.com/deliciousfeeds4J/)
+
