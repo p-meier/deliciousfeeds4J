@@ -24,19 +24,21 @@ deliciousfeeds4J is licensed under the Apache 2.0 license, see the LICENSE file 
 ##A small example of usage
 Simple and easy to use - here an example of finding the 10 most recent bookmarks posted on delicious (from all users):
 
-    //Create an instance
-    final DeliciousFeeds deliciousFeeds = new DeliciousFeeds();
+```java
+//Create an instance
+final DeliciousFeeds deliciousFeeds = new DeliciousFeeds();
 
-    //Expand Urls (defaults to false) - Some Urls are shortened like this 'http://icio.us/+a7f570d6d6842'
-    //and get expanded to with that option to this: 'http://www.competitionline.com/de/wettbewerbe/116699'
-    deliciousFeeds.setExpandUrls(true);
+//Expand Urls (defaults to false) - Some Urls are shortened like this 'http://icio.us/+a7f570d6d6842'
+//and get expanded to with that option to this: 'http://www.competitionline.com/de/wettbewerbe/116699'
+deliciousFeeds.setExpandUrls(true);
 
-    //Set a proper userAgent-String (recommended by delicious - but did not cause any trouble during my
-    //tests without it (default is: 'deliciousfeeds4j Java/1.7'))
-    deliciousFeeds.setUserAgent("Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0.1)");
+//Set a proper userAgent-String (recommended by delicious - but did not cause any trouble during my
+//tests without it (default is: 'deliciousfeeds4j Java/1.7'))
+deliciousFeeds.setUserAgent("Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0.1)");
 
-    //Find the 10 most recent bookmarks
-    final List<Bookmark> bookmarks = deliciousFeeds.findBookmarks();
+//Find the 10 most recent bookmarks
+final List<Bookmark> bookmarks = deliciousFeeds.findBookmarks();
+```
 
 ##Javadoc
 Here is the Javadoc of the project: [http://p-meier.github.com/deliciousfeeds4J/](http://p-meier.github.com/deliciousfeeds4J/)
